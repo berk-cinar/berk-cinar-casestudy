@@ -1,0 +1,89 @@
+.header {
+        height: 550px;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+}
+
+.header-bg {
+        height: 100%;
+        width: 90%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        background-image: url('../../public/assets/header-bg.png');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+}
+
+.headerElements {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        position: absolute;
+        width: 80%;
+        margin: 0 10%;
+        bottom: 0;
+}
+
+.image1 {
+        padding-top: 36px;
+        height: 314px;
+        width: 238px;
+}
+
+.header-text {
+        position: absolute;
+        width: 100%;
+        bottom: 380px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+}
+
+.movieRating {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #ebe9ee;
+        color: rgb(2, 1, 1);
+        padding: 6px 22px;
+        font-size: 18px;
+        border-radius: 5px 5px 0 0;
+        font-weight: 500;
+}
+
+.text-1 {
+        font-weight: 600;
+        font-size: 30px;
+        color: white;
+        margin: 0;
+}
+
+.text-2 {
+        font-weight: 300;
+        font-size: 30px;
+        color: white;
+        margin: 0;
+}
+
+.card-container {
+        position: relative;
+        width: 238px;
+        height: 350px;
+        margin-bottom: 50px;
+}
+
+.card-title {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        background-color: purple;
+        opacity: 76%;
+        color: white;
+}

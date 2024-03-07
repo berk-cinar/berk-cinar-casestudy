@@ -1,0 +1,28 @@
+.footer {
+        height: 75px;
+        background: #24123A;
+        padding: 0 7.5vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.footer-description {
+        margin: 0;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+}
+
+.footer-description a {
+        display: inline;
+        margin-right: 20px;
+        font-weight: 400;
+        color: white;
+        font-size: 16px;
+        text-decoration: none;
+}
+
+.footer-description a:last-child {
+        margin-right: 0;
+}
